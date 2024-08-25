@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <link rel="stylesheet" href="tourism.css">
+</head>
+
+<body>
+    <div class="favourite-places-bg-container">
+        <h1 class="favourite-cars-heading">Favourite cars</h1>
+
+        <div class="favourite-place-card-container d-flex flex-row shadow">
+            <div>
+                <a href="https://www.ferrari.com/en-IN" target="_blank">
+                    <h1 class="favourite-place-card-heading">Ferarri</h1>
+                </a>
+                <p class="favourite-place-card-description">
+                Ferrari, an emblem of luxury and performance, epitomizes
+                high-speed elegance in automotive design. Founded by Enzo Ferrari
+                in 1939, the brand is synonymous with innovation and racing success.
+                Each Ferrari model blends cutting-edge technology with exquisite craftsmanship, 
+                symbolizing ultimate aspiration and driving pleasure for enthusiasts worldwide.
+                </p>
+            </div class="d-flex flex-row">
+            <img src="C:\Users\konda\Downloads\F1 WALLPAPER.jpg" class="favourite-place-card-image" />
+        </div>
+
+        <div class="favourite-place-card-container d-flex flex-row shadow">
+            <div>
+                <a href="https://www.astonmartin.com/en" target="_blank">
+                    <h1 class="favourite-place-card-heading">ASTON MARTIN</h1>
+                </a>
+                <p class="favourite-place-card-description">
+             Aston Martin, renowned for its sophisticated engineering and timeless design,
+              symbolizes British luxury in the automotive world. Established in 1913, 
+              the brand blends high performance with elegance. Iconic models like the DB5 and Vantage embody 
+              both cutting-edge technology and classic aesthetics, making Aston Martin a quintessential 
+              symbol of refined driving.
+                </p>
+            </div>
+            <img src="C:\Users\konda\Downloads\Aston Martin.jpg" class="favourite-place-card-image" />
+        </div>
+
+        <div class="favourite-place-card-container d-flex flex-row shadow">
+            <div>
+                <a href="https://www.bugatti.com/" target="_blank">
+                    <h1 class="favourite-place-card-heading">BUGATTI</h1>
+                </a>
+                <p class="favourite-place-card-description">
+                    Bugatti, a paragon of high-performance luxury, has been crafting exceptional automobiles since 1909. 
+                    Renowned for its groundbreaking engineering and stunning design, the brand excels in speed and innovation.
+                     Iconic models like the Veyron and Chiron showcase Bugatti’s commitment to pushing boundaries, blending extraordinary
+                      power with unparalleled elegance and sophistication.
+                </p>
+            </div>
+         <img src="C:\Users\konda\Downloads\Bugatti.jpg" class="favourite-place-card-image" />
+        </div>
+
+        <div class="favourite-place-card-container d-flex flex-row shadow">
+            <div>
+                <a href="https://www.pagani.com/" target="_blank">
+                    <h1 class="favourite-place-card-heading">PAGANI</h1>
+                </a>
+                <p class="favourite-place-card-description">
+                    Pagani, founded in 1992, is a symbol of extreme automotive artistry and innovation.
+                     Renowned for its bespoke hypercars like the Huayra, Pagani combines cutting-edge technology with
+                      meticulous craftsmanship. Each model showcases unique design elements and unparalleled performance,
+                     reflecting a relentless pursuit of perfection and a passion for automotive excellence.
+                </p>
+            </div>
+            <img src="C:\Users\konda\Downloads\PAGANI.jpg" class="favourite-place-card-image"/>
+        </div>
+    </div>
+</body>
+
+</html>
+
+.favourite-places-bg-container {
+    background-image: url("https://res.cloudinary.com/dacajy8gz/image/upload/v1722172315/mgk3jcljnly55yffjssm.jpg");
+    height: 220vh;
+    background-size: cover;
+}
+
+.favourite-cars-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 15px;
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.favourite-place-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.favourite-place-card-image {
+    width: 150px;
+    height: 150px;
+}
+
